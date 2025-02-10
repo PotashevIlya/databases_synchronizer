@@ -84,8 +84,10 @@ class DBSync:
 
     def sync_all(self):
         """Синхронизируем все таблицы"""
+        print('Начало работы')
         for table in self.get_tables():
             self.sync_table(table)
+        print('Работа завершена')
 
 
 if __name__ == '__main__':
