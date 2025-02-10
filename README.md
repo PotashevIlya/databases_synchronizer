@@ -39,7 +39,7 @@ python3 -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 4. Создать .env файл и заполнить его по образцу .env.example
-5. Запутить скрипт командой
+5. Запустить скрипт командой
 ```
 python databases_synchronizer.py
 ```
